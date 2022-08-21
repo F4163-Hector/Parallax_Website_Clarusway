@@ -104,20 +104,20 @@ footer i:hover {
   color: purple;
 }
 div.slack {
-    background-color:  purple;
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    vertical-align: middle;
-    position: fixed;
-    right: 40px;
-    bottom: 40px;
-    font-size: 2.3rem;
-    text-align: center;
-    padding: 12px;
-    color: white;
+  background-color: purple;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  vertical-align: middle;
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+  font-size: 2.3rem;
+  text-align: center;
+  padding: 12px;
+  color: white;
 }
 
-div.slack:hover{
-    color: black;
+div.slack:hover {
+  color: black;
 }
