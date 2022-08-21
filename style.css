@@ -84,10 +84,13 @@ p {
   background-image: url(./img/bg1.jpg);
   height: 100vh;
 }
-.content_footer{
-    text-align: center;
-}
+
 footer {
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: ;
   background: rgb(241, 241, 241);
 }
 footer a {
