@@ -7,6 +7,93 @@ body {
   font-family: "Lato", sans-serif;
   line-height: 2rem;
 }
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  z-index: 2;
+}
+nav {
+  width: 80%;
+  max-width: 1280px;
+  margin: auto;
+}
+header a {
+  text-decoration: none;
+}
+
+header li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.header-sag {
+  float: right;
+  margin-right: 30px;
+}
+
+.header-sag li {
+  margin: 10px 5px;
+  font-size: 15px;
+  font-weight: bolder;
+  color: #4f4f4f;
+}
+
+.header-sag li a {
+  margin: 1px;
+  font-size: 15px;
+  color: #4f4f4f;
+}
+
+.header-sol {
+  float: left;
+}
+.clear {
+  clear: both;
+}
+
+#btn1 {
+  padding: 12px 20px;
+  border: 1px solid #a62440;
+  color: #a62440;
+  border-radius: 8px;
+}
+
+#btn1:hover {
+  background-color: #a62440;
+  color: white;
+}
+
+#btn2 {
+  background-color: #a62440;
+  padding: 12px 20px;
+  color: white;
+  border-radius: 8px;
+  border: 1px solid transparent;
+}
+#btn2:hover {
+  background-color: white;
+  color: #a62440;
+  border: 1px solid #a62440;
+}
+
+.menu-hover:hover {
+  color: #a62440;
+  text-decoration: underline;
+}
+
+.sol {
+  float: left;
+  width: 50%;
+}
+
+.sag {
+  float: right;
+  width: 50%;
+}
+
 .container {
   display: flex;
   align-items: center;
